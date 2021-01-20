@@ -1,5 +1,25 @@
-#simon-box {
-    width: 700px;
-    height: 700px;
-    postion: absolute;
+#outer-circle {
+    height: 750px;
+    width: 750px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+#power-panel {
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    top: 25%; /* of the container */
+    width:50%; /* of the container */
+    height:50%; /* of the container */
+    position: relative;
+    border:1px solid black;
+}
+#switches {
+    display: inline-block;
+    border-radius: 50%;
+    top: 25%;
+    width: 50%;
+    height: 50%;
+    position: relative;
 }
